@@ -25,24 +25,21 @@
 // ===========================================================
 
 window.OUTFIT_PRESETS = [
+  
   {
-  name: "casual", // <- fill in a name for this outfit
-  emoji: "👗", // <- swap for whatever emoji fits best
-  clothes: { dress: "dress1", shoes: "shoes1", bottomUnderwear: "bottomunderwear1", hat: "hat1" },
+  name: "schoolUniform",
+  emoji: "🎓",
+  clothes: {
+    jacket: "jacket1",
+    top: "top1",
+    topUnderwear: "topunderwear1",
+    bottom: "skirt1",
+    bottomUnderwear: "bottomunderwear1",
+    shoes: "shoes1",
+    socks: "socks1"
+  },
   colors: {},
 },
-  {
-    name: "Skirt Day",
-    emoji: "🌸",
-    clothes: { top: "top1", bottom: "skirt1", shoes: "shoes1", hat: "hat1" },
-    colors:  { top: "Pink", bottom: "Purple" },
-  },
-  {
-    name: "Party Dress",
-    emoji: "🎀",
-    clothes: { dress: "dress1", shoes: "shoes1", hat: "hat1" },
-    colors:  { dress: "Red", hat: "Yellow" },
-  },
   {
     name: "Comfy",
     emoji: "🩲",
@@ -51,7 +48,7 @@ window.OUTFIT_PRESETS = [
   {
     name: "Swimsuit",
     emoji: "🩱",
-    clothes: { onepieceUnderwear: "onepieceunderwear1" },
+    clothes: { topUnderwear: "topunderwear1", bottomUnderwear: "bottomunderwear1" },
     colors:  { onepieceUnderwear: "Cyan" },
   },
   {
